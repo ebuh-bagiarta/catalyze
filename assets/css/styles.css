@@ -1,0 +1,633 @@
+
+   		@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+   		/*I@import url('https://fonts.googleapis.com/css?family=Montserrat');*/
+   		@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+	   	 
+	   	 *{
+	   	 	margin:0;
+	   	 	padding: 0;
+	   	 	font-size: 14px;
+	   	 	box-sizing: border-box;
+	   	 }
+   		.container, .head-container {
+   			
+   			margin : 0 auto;
+   			width: 100%;
+   		}
+   		.header-top{
+   			
+   			
+   			width: 100%;
+   			padding-top: 22.5px;
+   			padding-bottom: 22.5px;
+   		}
+   		.logo{
+   			width: 40%;
+   		}
+   		.navigation{
+   			margin-top: 17.5px;
+   			width: 40%;
+   		}
+   		.navigation ul li {
+   			list-style: none;
+
+   		}
+   		.alternate-link{
+   			margin-top: 20px;
+   			margin-bottom: 20px;
+   			text-align: center;
+   		}
+   		.alternate-link a{
+   			font-family: 'Montserrat', sans-serif;
+   			font-size: 13px;
+   			padding-right: 40px;
+   		}
+   		.social{
+   			margin-top: 17.5px;
+   			
+   		}
+   		.social-item{
+   			
+   			float: right;
+   		}
+   		.social-item a{
+   			padding-right: 20px;
+   		}
+   		.social-item li {
+   			display: inline;
+   			list-style: none;
+   		}
+   		.navigation a{
+   			font-size: 15px;
+   			font-family: 'Montserrat', sans-serif;
+   			padding-right: 40px;
+   		}
+   		.border{
+   			border-bottom: 1px solid #c2c2c2;
+   		}
+   		.main-news{
+   			position: relative;
+   			float:left;
+   			width: 60%;
+   		}
+   		.main-news h2{
+   			line-height: 1.4;
+   			font-weight: bold;
+   			font-size: 24px;
+   			font-family: 'Montserrat', sans-serif;
+   		}
+   		.main-news p{
+   			line-height: 1.5;
+   			font-size: 15px;
+   			font-family:  'Open Sans', sans-serif;
+   		}
+   		.text-block{
+
+   			padding-left: 30px;
+   			padding-left: 30px;
+   			position: absolute;
+   			bottom: 30px;
+   			color: #fff;
+   		}
+   		
+   		.text-block-right{
+   			font-weight:bolder;
+   			font-family: 'Montserrat', sans-serif;
+   			line-height: 1.4;
+   			font-size: 18px;
+   			color:#fff;
+   			position: absolute;
+   			padding: 20px;
+   			bottom: 0px;
+   		}
+   		.main-news img{
+   			
+   			width: 100%;
+   			height: 400px;
+   		}
+
+   		.right-news{
+   			float: left;
+   			display: block;
+   			width: 40%;
+   		}
+   		.top-news{
+   			overflow: auto;
+   		}
+
+   		.bottom-news{
+   			overflow: auto;
+   		}
+   		.right-news img{
+   			float: left; 
+   			width: 100%;
+   			height: 200px;
+   		}
+
+   		.top-news, .bottom-news{
+   			position: relative;
+   		}
+   		.client h1{
+   			font-family: 'Montserrat', sans-serif;
+   			font-size: 24px;
+   			color: #252525;
+   			padding-top: 50px;
+   			font-size: 24px;
+   			text-align: center;
+   		}
+
+   		.client-logo{
+   			
+   			box-sizing: border-box;
+   			margin-top: 40px;
+   		}
+   		.list-client{
+   			display: flex;
+    		flex-wrap: wrap;
+   		}
+   		.client-logo-image {
+   			margin : 0 auto;
+   			width: 100%;
+
+   		}
+   		
+   		.client-logo img{
+   			margin-left: auto;
+			margin-right: auto;
+			display: block;
+   		}
+
+   		.social-embedd{
+   			display: flex;
+
+   			flex-wrap: wrap;
+   		}
+   		.box-social{
+   			height: 580px;
+   			width: 330px;
+   			border: 1px solid #c2c2c2;
+   			margin-right: 30px;
+   		}
+   		.head-twitter{
+   			height: 50px;
+   			border-bottom: 1px solid #c2c2c2;
+
+   		}
+
+   		
+
+   	.catalyze-instagram{
+			font-family: 'Montserrat', sans-serif;
+			font-size: 18px;
+			color : #252525;
+			font-weight: bold;
+			float: left;
+			padding-top: 10px;
+    		padding-left: 10px;	
+    		
+		}
+
+
+      .title-instagram{
+         font-family: 'Montserrat', sans-serif;
+         font-size: 18px;
+         color : #252525;
+         font-weight: bold;
+         float: left;
+         padding-top:14px;
+      }
+
+   		.catalyze-instagram img{
+   			float: left;
+   			padding-right: 10px;
+   		}
+   		.follow-instagram{
+   			float: right;
+   			padding-top: 13px;
+   			padding-right: 10px;
+   		}
+   		.instagram-button{
+   			font-family: 'Open Sans', sans-serif;
+   			font-size: 13px;
+   			font-weight: bolder;
+   			color: #252525;
+   			border: 1px solid #c2c2c2;
+   			width: 64px;
+   			height: 30px;
+   			background-color: #fff;
+   		}
+   		.catalyze-twitter{
+   			font-weight: bold;
+   			font-family: 'Montserrat', sans-serif;
+   			font-size: 18px;
+   			float: left;
+   			padding-top: 10px;
+   			padding-left:  10px;
+   		}
+
+         .title-twitter{
+               font-weight: bold;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+            float: left;
+            padding-top: 10px;
+            padding-left: 10px;
+      }
+   		.follow-twitter{
+   			float: right;
+   			padding-top: 13px;
+   			padding-right: 10px;
+   		}
+   		.twitter-button{
+   			font-family: 'Open Sans', sans-serif;
+   			font-size: 13px;
+   			font-weight: bold;
+   			color: #3cafe3;
+   			border: 1px solid #c2c2c2;
+   			width: 64px;
+   			height: 30px;
+   			background-color: #fff;
+   		}
+   		.head-facebook{
+   			
+   			width: 100%;
+   			height: 170px;
+   			padding: 20px;
+   			color: #fff;
+   			background-image: url('../images/s5.jpg');
+   		}
+   		.feed-facebook h5{
+   			font-family: 'Open Sans', sans-serif;
+   			font-size: 12px;
+   			color: #898989;
+   		}
+
+   		.feed-facebook p{
+   			font-family: 'Open Sans', sans-serif;
+   			font-size: 13px;
+   			color: #636363;
+   			line-height: 1.5;
+   		}
+   		.container-facebook{
+   			height: 410px;
+   			overflow: scroll;
+   			padding: 20px;
+   		}
+   		.feed-facebook img{
+   			padding-top: 20px;
+   			width: 100%;
+   		}
+   		.col-facebook{
+   			float: left;
+   			padding-top: 35%;
+   			width: 50%;
+   		}
+   		.col-facebook .account{
+   			font-weight: bold;
+   			font-family: 'Montserrat', sans-serif;
+   			font-size: 18px;
+   		}
+   		.col-facebook .like{
+   			font-family: 'Open Sans', sans-serif;
+   			font-size: 13px;
+   		}
+   		.col-facebook .buttonlike{
+   			background-color: Transparent;
+   			color: #fff;
+   			width :70px;
+   			height: 30px;
+   			float: right;
+   		}
+   		.footer{
+   			
+   			background-color: #f5f5f5;
+   		}
+
+   		.footer ul li{
+   			font-family: 'Open Sans', sans-serif;
+   			font-size: 12px;
+   			color: #898989;
+   		}
+   		.footer p{
+   			font-family: 'Open Sans', sans-serif;
+   			font-size: 12px;
+   			color: #898989;
+   		}
+   		.footer h4{
+   			font-weight: bold;
+   			font-family: 'Montserrat', sans-serif;
+   			font-size: 12px;
+   			color: #252525;
+   		}
+   		.slide{
+            padding-top: 60px;
+   			background-color: #f5f5f5;
+   		}
+   		
+   		.footer-col{
+   			padding-top: 40px;
+   			width: 100%;
+   			margin-right: 40px;
+   		}
+
+   		.footer-contact{
+   			padding-top: 40px;
+   			width: 100%;
+   			margin-right: 40px;
+   		}
+
+   		.footer-col ul{
+   			padding-top: 20px;
+   			color: #898989;
+   			font-size: 12px;
+   		}
+   		.footer-contact p{
+   			padding-top: 20px;
+   			padding-bottom: 20px;
+   		}
+
+   		.footer-col ul li{
+   			padding-bottom:30px;
+   			list-style: none;
+   		}
+   		.footer h4{
+   			padding-bottom : 20px;
+   			border-bottom:  1px solid #c2c2c2;
+   		}
+
+   		.input {
+   			border: none;
+   			background-color: #fff;
+   			width: 100%;
+   			height: 50px;
+   		}
+   		.media{
+   			padding-bottom: 40px;
+   			padding-top: 40px;
+   		}
+		
+   		.logo-catalyze-twitter{
+			padding: 24px 7px 0px 20px;
+			float: left;
+		}
+		.account-catalyze-name{
+			font-family: 'Open Sans', sans-serif;
+			font-size: 14px;
+			font-weight: bold;
+			color: #3cafe3;
+			float: left;
+			padding-top: 25px;
+		
+		}
+		.created-at{
+			color: #3cafe3;
+			padding-top: 25px;
+			padding-right: 20px;
+			float: right;
+		}
+		.container-twitter{
+			overflow: scroll;
+			height: 530px;
+		}
+		.feed-twitter{
+			padding-bottom: 30px;
+			border-bottom: 1px solid #c2c2c2;
+		}
+		.feed-twitter p{
+			font-family: 'Open Sans', sans-serif;
+			color: #636363;
+			line-height: 1.5;	
+			font-size: 13px;
+			clear: both;
+			padding-top: 20px;
+			padding-left: 60px;
+		}
+		.image-twitter{
+			padding-left: 60px;
+			padding-right: 2px;
+			width: 100%;
+			padding-top: 20px;
+		}
+
+		.feed-instagram {
+			flex-wrap: wrap;
+			display: flex;
+			overflow: scroll;
+			height: 530px;
+			padding: 20px;
+		}
+		.feed-instagram img{
+			padding-left: 10px;
+			padding-bottom:20px;
+			width: 50%;
+			height: 130px;
+		}
+
+		.client img{
+			width: 100%;
+		}
+      .logo1{
+         padding-bottom: 20px;
+         margin-right: : 30px;
+      }
+      .logo5{
+         padding-bottom: 10px;
+      }
+      ::-webkit-scrollbar {
+          width: 8px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+          background: #fff; 
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+          background: #888; 
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+          background: #555; 
+      }
+		        .swiper-container {
+      width: 100%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .slide{
+      padding-top:60px;
+      padding-bottom:80px;
+    }
+    .swiper-slide {
+      text-align: left;
+      font-size: 18px;
+      background: #f5f5f5;
+      height: auto;
+
+      /* Center slide text vertically 
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;*/
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .swiper-slide img{
+      width: 330px;
+      height: 210px;
+
+    }
+    .swiper-slide .desc-pict{
+      margin: 20px 0 0 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      color: #252525;
+      line-height: 1.4;
+      font-weight: bold;
+    }
+    .date-slide{
+      font-size: 12px;
+      padding-top: 20px;
+      font-family: 'Open Sans', sans-serif;
+    }
+    .swiper-slide{
+      margin-right: 60px;
+    }
+    .only-text{
+      font-size: 13px;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.5;
+      color: #636363;
+
+      margin-top: : 30px;
+    }
+    .title-slide{
+      padding-top: 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      color: #fc8e2e;
+      line-height: 1.4;
+      font-size: 18px;
+    }
+
+    .your-message{
+      color:#636363;font-family: 'Open Sans', sans-serif;padding:10px;
+    }
+    .email-address{
+      color:#636363;font-family: 'Open Sans', sans-serif;padding:10px;width:302px;float:left;
+    }
+    .submit-button{
+      float:right;background-color: #252525;color: #fff;font-family: 'Open Sans', sans-serif; width: 95px; height:50px;border:0;
+    }
+@media only screen and (max-width: 400px) {
+	.container{
+	  padding: 0 10px;
+	}
+	.right-news{
+		width: 100%;
+	}
+	.main-news{
+		width: 100%;
+	}
+	.right-news img{
+		
+		height: auto;
+	}
+
+	.swiper-slide img{
+		margin-left:10px;
+	}
+
+  .client-logo-image{
+	 	width: 100%;
+	 }
+ .box-social{
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-top: 50px;
+ }
+ .footer-col{
+ 	width: 100%;
+ }
+}
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	.right-news{
+		width: 100%;
+	}
+
+	.container{
+	  padding: 0 10px;
+	}
+	.main-news{
+		width: 100%;
+	}
+	.right-news img{
+		
+		height: auto;
+	}
+	.client-logo-image{
+	 	width: 40%;
+	 }
+	 .box-social{
+	 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-top: 50px;
+	 }
+	  .footer-col{
+ 	width: 100%;
+ }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .head-container{
+   width: 1358px;
+  }
+ .container{
+    width: 1080px;
+    margin: 0 auto;
+ }
+ .client-logo-image{
+ 	width: 15%;
+ }
+ .footer-col{
+
+ 	width: 180px;
+ }
+ .footer .container{
+	display: flex;
+	}
+	.footer-contact{
+   			padding-top: 40px;
+   			width: 410px;
+   			margin-right: 40px;
+   		}
+   		.header-top{
+   			
+   			display: flex;
+   		}
+   		.navigation ul li {
+   			list-style: none;
+   			display: inline;
+   		}
+   		.header-top{
+   			
+   			height: 85px;
+   			
+   		}
+   		
+
+}
