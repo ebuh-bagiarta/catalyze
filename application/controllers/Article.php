@@ -30,25 +30,25 @@ class Article extends CI_Controller {
 
 
 		$config['upload_path']          = './assets/upload/';
-        $config['allowed_types']        = 'gif|jpg|png';
-        $config['max_size']             = 2000;
-        $config['max_width']            = 2000;
-        $config['max_height']           = 2000;
+		$config['allowed_types']        = 'gif|jpg|png';
+		$config['max_size']             = 2000;
+		$config['max_width']            = 2000;
+		$config['max_height']           = 2000;
 
-        $this->load->library('upload', $config);
+		$this->load->library('upload', $config);
 
-        if ( ! $this->upload->do_upload('image'))
-        {
-                $error = array('error' => $this->upload->display_errors());
-                
-        }
-        else
-        {
-        		$data['image']=$this->upload->data('file_name');   
-        }
-        $this->model_article->store($data);	
-		echo "success";
-        redirect('article');
+		if ( ! $this->upload->do_upload('image'))
+		{
+			$error = array('error' => $this->upload->display_errors());
+
+		}
+		else
+		{
+				$data['image']=$this->upload->data('file_name');   
+		}
+		$this->model_article->store($data);	
+			echo "success";
+		redirect('article');
 
 
 	}
@@ -63,24 +63,24 @@ class Article extends CI_Controller {
 	public function update(){
 		$id=$this->input->post('id');
 		$config['upload_path']          = './assets/upload/';
-        $config['allowed_types']        = 'gif|jpg|png';
-        $config['max_size']             = 2000;
-        $config['max_width']            = 2000;
-        $config['max_height']           = 2000;
-        $this->load->library('upload', $config);
-        if ( ! $this->upload->do_upload('image'))
-        {
-                $error = array('error' => $this->upload->display_errors());
-                var_dump($error);
-                //$this->load->view('upload_form', $error);
-        }
-        else
-        {
-        	$article = $this->model_article->get_article($id);
-        	unlink("assets/upload/".$article->row('image'));
-        	$data['image']=$this->upload->data('file_name');   
-				
-        }
+		$config['allowed_types']        = 'gif|jpg|png';
+		$config['max_size']             = 2000;
+		$config['max_width']            = 2000;
+		$config['max_height']           = 2000;
+		$this->load->library('upload', $config);
+		if ( ! $this->upload->do_upload('image'))
+		{
+			$error = array('error' => $this->upload->display_errors());
+			var_dump($error);
+			//$this->load->view('upload_form', $error);
+		}
+		else
+		{
+			$article = $this->model_article->get_article($id);
+			unlink("assets/upload/".$article->row('image'));
+			$data['image']=$this->upload->data('file_name');   
+
+		}
 		$data['title']=$this->input->post('title');
 		$data['description']=$this->input->post('description');
 		$data['date']=$this->input->post('date');
